@@ -1,0 +1,54 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ssi.entrega3.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_produtos"
+        android:name="com.ssi.entrega3.ui.produtos.ProdutosFragment"
+        android:label="@string/menu_produtos"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_pedidos"
+        android:name="com.ssi.entrega3.ui.pedidos.PedidosFragment"
+        android:label="@string/menu_pedidos"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_busca"
+        android:name="com.ssi.entrega3.ui.busca.BuscaFragment"
+        android:label="@string/menu_busca"
+        tools:layout="@layout/fragment_busca" />
+
+    <fragment
+        android:id="@+id/bottomnavcad"
+        android:name="com.ssi.entrega3.ui.actions.CadFragment"
+        android:label="@string/txtAdicionar"
+        tools:layout="@layout/fragment_cadastro" />
+
+    <activity
+        android:id="@+id/nav_info"
+        android:name="com.ssi.entrega3.activities.InfoActivity"
+        android:label="Info"
+        tools:layout="@layout/activity_info" />
+    <activity
+        android:id="@+id/nav_map"
+        android:name="com.ssi.entrega3.activities.MapActivity"
+        android:label="Info"
+        tools:layout="@layout/activity_map" />
+
+    <activity
+        android:id="@+id/nav_send"
+        android:name="com.ssi.entrega3.activities.SendActivity"
+        android:label="@string/menu_send"
+        tools:layout="@layout/activity_send" />
+
+</navigation>
