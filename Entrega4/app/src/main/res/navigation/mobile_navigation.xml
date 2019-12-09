@@ -1,0 +1,61 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ssi.entrega4.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+    android:id="@+id/nav_produtos"
+    android:name="com.ssi.entrega4.ui.produtos.ProdutosFragment"
+    android:label="@string/menu_produtos"
+    tools:layout="@layout/fragment_produtos" />
+
+    <fragment
+        android:id="@+id/nav_cad_produto"
+        android:name="com.ssi.entrega4.ui.cad.CadProdFragment"
+        android:label="@string/menu_cad_produto"
+        tools:layout="@layout/fragment_cad_produtos" />
+
+    <fragment
+        android:id="@+id/nav_pedidos"
+        android:name="com.ssi.entrega4.ui.pedidos.PedidoFragment"
+        android:label="@string/menu_pedidos"
+        tools:layout="@layout/fragment_pedido" />
+
+    <fragment
+        android:id="@+id/nav_cad_pedido"
+        android:name="com.ssi.entrega4.ui.cad.CadFragment"
+        android:label="@string/menu_pedidos"
+        tools:layout="@layout/fragment_cad_pedido" />
+
+    <fragment
+        android:id="@+id/nav_busca"
+        android:name="com.ssi.entrega4.ui.busca.BuscaFragment"
+        android:label="@string/menu_busca"
+        tools:layout="@layout/fragment_busca" />
+
+    <activity
+        android:id="@+id/nav_info"
+        android:name="com.ssi.entrega4.activities.InfoActivity"
+        android:label="Info"
+        tools:layout="@layout/activity_info" />
+    <activity
+        android:id="@+id/nav_map"
+        android:name="com.ssi.entrega4.activities.MapActivity"
+        android:label="Info"
+        tools:layout="@layout/activity_map" />
+
+    <activity
+        android:id="@+id/nav_send"
+        android:name="com.ssi.entrega4.activities.SendActivity"
+        android:label="@string/menu_send"
+        tools:layout="@layout/activity_send" />
+
+
+</navigation>

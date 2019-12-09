@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "122495073449",
+    "firebase_url": "https://entrega4-863e1.firebaseio.com",
+    "project_id": "entrega4-863e1",
+    "storage_bucket": "entrega4-863e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122495073449:android:348afe6a030cfba520bdb8",
+        "android_client_info": {
+          "package_name": "com.ssi.entrega4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122495073449-2bjgvh3c783gh89hgordharcj3pco01i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ssi.entrega4",
+            "certificate_hash": "753b53c33a2649b5d04678d15ec53d98059450b4"
+          }
+        },
+        {
+          "client_id": "122495073449-v2tmc1riq7jb19pq8et7kksv02omajov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKLVanfMwQCAgDRLPA9miJwRWmuk-HcrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122495073449-v2tmc1riq7jb19pq8et7kksv02omajov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

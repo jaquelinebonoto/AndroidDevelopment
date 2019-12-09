@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Entrega4</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Closed Caption</string>
+    <string name="nav_header_subtitle">jaquelinepazdev@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_produtos">Produtos</string>
+    <string name="menu_pedidos">Pedidos</string>
+    <string name="menu_cad_pedido">Cadastrar Pedido</string>
+    <string name="menu_cad_produto">Cadastrar Produto</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_busca">Busca</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_map">Mapa</string>
+
+    <string name="btnlogar">Logar</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="btnCadPed">Cadastrar</string>
+    <string name="btnEdit">Editar</string>
+    <string name="btnDel">Deletar</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="txtAdicionar">Adicionar</string>
+    <string name="txtDeletar">Deletar</string>
+    <string name="txtEditar">Editar</string>
+    <string name="txtListar">Listar</string>
+
+    <string name="cadUser_titulo">CADASTRAR USUÁRIO</string>
+    <string name="login_cpwd">Confirme sua Senha</string>
+    <string name="cadUser_btnCad">CADASTRAR</string>
+    <string name="cadUser_btnCanc">CANCELAR</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_pwd">Senha</string>
+
+
+    <string name="nome">Nome Produto</string>
+    <string name="nomeProduto">Nome Produto</string>
+    <string name="cor">Cor</string>
+    <string name="precoVenda">Preço de Venda</string>
+    <string name="precoCusto">Preço de Custo</string>
+    <string name="lucro">Lucro</string>
+
+    <string name="codigo">Código</string>
+    <string name="nomeCliente">Nome Cliente</string>
+    <string name="telefone">Telefone</string>
+    <string name="dataPedido">Data Pedido</string>
+    <string name="valorPedido">Valor do Pedido</string>
+
+    <string name="compose_email">Compose Email</string>
+    <string name="google_maps_key">AIzaSyBncRyZBV1GfJ_oz_vjLhYbUpcpVEAla4k</string>
+
+    <string name="btnCadProd">Cadastrar</string>
+</resources>
