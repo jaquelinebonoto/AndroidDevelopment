@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FirebaseActions</string>
+    <string name="login_titulo">LOGIN</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_pwd">Senha</string>
+    <string name="login_btn">LOGIN</string>
+    <string name="login_cadastro">Cadastre-se</string>
+    <string name="cadUser_titulo">CADASTRAR USUÁRIO</string>
+    <string name="login_cpwd">Confirme sua Senha</string>
+    <string name="cadUser_btnCad">CADASTRAR</string>
+    <string name="cadUser_btnCanc">CANCELAR</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_add">Cadastrar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_search">Pesquisar</string>
+    <string name="action_list">Listar</string>
+    <string name="action_exit">Sair</string>
+    <string name="action_settings">Settings</string>
+</resources>
