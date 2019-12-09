@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:layout_width="287dp"
+        android:layout_height="459dp"
+        android:layout_marginRight="8dp"
+        android:id="@+id/lista"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <!-- Include other widget or layout tags here. These are considered
+            "child views" or "children" of the linear layout -->
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:id="@+id/buttonProd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Produtos" />
+
+        <Button
+            android:id="@+id/buttonPed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pedidos" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/buttonBusca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Busca" />
+
+        <Button
+            android:id="@+id/buttonSobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sobre" />
+
+    </LinearLayout> -->
+
+</LinearLayout>

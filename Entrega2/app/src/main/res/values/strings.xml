@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Entrega2</string>
+    <string name="produto">Nome Produto</string>
+    <string name="cor">Cor</string>
+    <string name="precoCusto">Preço de Custo</string>
+    <string name="precoVenda">Preço de Venda</string>
+    <string name="lucro">Lucro</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="editar">Editar</string>
+    <string name="excluir">Excluir</string>
+    <string name="voltar">Voltar</string>
+
+    <string name="corProduto">Escolha uma cor</string>
+    <string-array name="cores">
+        <item>Azul</item>
+        <item>Carmim</item>
+        <item>Pérola</item>
+        <item>Preto</item>
+    </string-array>
+
+    <string name="nomeCliente">Nome Cliente</string>
+    <string name="telefone">Telefone</string>
+    <string name="dataPedido">Data Pedido</string>
+    <string name="valorPedido">Valor</string>
+    <string name="search">Insira sua busca aqui</string>
+</resources>
